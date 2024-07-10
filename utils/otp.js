@@ -1,6 +1,6 @@
 import nodemailer from 'nodemailer';
 import crypto from 'crypto';
-import User from '../models/user.js';
+import User from '../models/User.js';
 
 const transporter = nodemailer.createTransport({
     service: 'gmail',
