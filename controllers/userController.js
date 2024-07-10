@@ -1,5 +1,5 @@
 // Import Model
-import User from "../models/user.js";
+import User from "../models/User.js";
 import { sendOtp, verifyOtp } from "../utils/otp.js";
 import express from "express";
 import mongoose from "mongoose";
